@@ -9,7 +9,7 @@ public class playerControl : MonoBehaviour
     private float miscinputx;
     private float miscinputy;
     [SerializeField] private float moveSpeed = 4f;
-    public float sprint = 1f;
+    public float sprint = 0.125f;
 
     // Start is called before the first frame update
     void Start()
