@@ -9,15 +9,15 @@ public class playerControl : MonoBehaviour
     private float miscinputx;
     private float miscinputy;
     [SerializeField] private float moveSpeed = 4f;
-    public float sprint = 0.125f;
+    public float sprint = 1f;
 
-    // Start is called before the first frame update
+    // this code runs once, when the game starts
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    // all of this code will run every frame
     void Update()
     {
         //this code moves the player on the x and y axis
