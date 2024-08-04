@@ -12,7 +12,7 @@ public class playerControl : MonoBehaviour
     private float miscinputx;
     private float miscinputy;
     [SerializeField] private float moveSpeed = 6f;
-    public float sprint = 1f;
+    public float sprintSpeed = 1.5f;
 
     // this code runs once, when the game starts
     void Start()
@@ -31,16 +31,13 @@ public class playerControl : MonoBehaviour
         // it isn't a very good sprint but its the thought that counts
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            float sprintSpeed = moveSpeed + sprint;
-            moveSpeed = sprintSpeed;
+            float sprint = moveSpeed +sprintSpeed;
+            moveSpeed = sprint;
         }
         if (!Input.GetKey(KeyCode.LeftShift))
         {
             moveSpeed = 6f;
         }
-
-        //important note: this space will be used for killing the player
-        
 
     }
 
@@ -51,13 +48,17 @@ public class playerControl : MonoBehaviour
         miscinputy = context.ReadValue<Vector2>().y;
     }
 
+    //this code checks for collision tags to make things happen.
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //this code "kills" the player and resets the scene
         if (collision.gameObject.CompareTag("Lethal"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
+        //this code checks for items and destroys them when touched
         if (collision.gameObject.CompareTag("Item"))
         {
             Destroy(collision.gameObject);
