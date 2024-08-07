@@ -13,6 +13,7 @@ public class playerControl : MonoBehaviour
     private float miscinputy;
     [SerializeField] private float moveSpeed = 6f;
     public float sprintSpeed = 1.5f;
+    [SerializeField]private float maxSprint = 10f;
 
     // this code runs once, when the game starts
     void Start()
@@ -26,17 +27,21 @@ public class playerControl : MonoBehaviour
         //this code moves the player on the x and y axis
         rb.velocity = new Vector2(miscinputx * moveSpeed, rb.velocity.y);
         rb.velocity = new Vector2(rb.velocity.x, miscinputy * moveSpeed);
-        
+
         // this code allows for sprinting
-        // it isn't a very good sprint but its the thought that counts
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            float sprint = moveSpeed +sprintSpeed;
+            float sprint = moveSpeed + sprintSpeed;
+
+            if (sprint >= maxSprint)
+                sprint = maxSprint;
             moveSpeed = sprint;
+            Debug.Log("Sprint Key Pressed: " + sprint);
         }
         if (!Input.GetKey(KeyCode.LeftShift))
         {
             moveSpeed = 6f;
+            Debug.Log("Sprint Key Released: " + moveSpeed);
         }
 
     }
@@ -59,6 +64,7 @@ public class playerControl : MonoBehaviour
         }
 
         //this code checks for items and destroys them when touched
+        //actual effects have yet to be implemented
         if (collision.gameObject.CompareTag("Item"))
         {
             Destroy(collision.gameObject);

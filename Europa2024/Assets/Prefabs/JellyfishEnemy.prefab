@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7277173517158473975}
   - component: {fileID: 4694665257913521338}
-  - component: {fileID: -7224621487032086991}
   - component: {fileID: 5821645432726745778}
+  - component: {fileID: 6524035545072055171}
   m_Layer: 0
   m_Name: JellyfishEnemy
   m_TagString: Lethal
@@ -86,7 +86,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &-7224621487032086991
+--- !u!114 &5821645432726745778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418288569561415397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e7209bcae0b8be449425792167ff7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &6524035545072055171
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,15 +143,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5821645432726745778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4418288569561415397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e7209bcae0b8be449425792167ff7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
