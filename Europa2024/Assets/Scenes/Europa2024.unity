@@ -974,6 +974,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2136480566}
+        m_TargetAssemblyTypeName: Startscript, Assembly-CSharp
+        m_MethodName: QuitToMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &438734155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1094,7 +1106,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 442175893}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2136480566}
+        m_TargetAssemblyTypeName: Startscript, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &442175893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2318,6 +2342,7 @@ MonoBehaviour:
   moveSpeed: 6
   sprintSpeed: 1.5
   maxSprint: 12
+  HealthNumber: 5
 --- !u!50 &812280860
 Rigidbody2D:
   serializedVersion: 4
@@ -4846,6 +4871,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2136480566}
+        m_TargetAssemblyTypeName: Startscript, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1710437837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4975,7 +5012,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.09318347, y: 0.9364745}
   m_AnchorMax: {x: 0.09318347, y: 0.9364745}
-  m_AnchoredPosition: {x: 95.612076, y: 27.2}
+  m_AnchoredPosition: {x: 115, y: 27.2}
   m_SizeDelta: {x: 256.2833, y: 33.9542}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744663953
@@ -4998,7 +5035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Health (non-functional)
+  m_text: 'current health: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5622,6 +5659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2136480565}
+  - component: {fileID: 2136480566}
   m_Layer: 0
   m_Name: StartScreen
   m_TagString: Untagged
@@ -5652,6 +5690,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2136480566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136480564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add461f7bee0125459de52c0212868da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2161745541005155857
 PrefabInstance:
   m_ObjectHideFlags: 0
