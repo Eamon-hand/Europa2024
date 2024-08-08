@@ -14,6 +14,7 @@ public class playerControl : MonoBehaviour
     [SerializeField] private float moveSpeed = 6f;
     public float sprintSpeed = 1.5f;
     [SerializeField]private float maxSprint = 10f;
+    public float HealthNumber = 10;
 
     // this code runs once, when the game starts
     void Start()
@@ -57,8 +58,17 @@ public class playerControl : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //this code "kills" the player and resets the scene
+        //this function allows for us to damage the player when they hit a harmful object
         if (collision.gameObject.CompareTag("Lethal"))
+        {
+            
+            HealthNumber = HealthNumber - 1;
+            
+
+        }
+
+        //this is the code that kills the player
+        if (HealthNumber < 1)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
