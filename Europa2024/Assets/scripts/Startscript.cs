@@ -11,16 +11,20 @@ public class Startscript : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    // StartGame dictates what happens when you start the game. this should happen when you push the start button
     public void StartGame()
     {
         Time.timeScale = 1.0f;
     }
 
+    // QuitToMenu dictates what happens when you want to go back to the menu. this should happen when you push the "quit to menu" button
     public void QuitToMenu()
     {
         SceneManager.LoadScene(0);
     }
 
+    // QuitGame quits the game and closes the application. this does nothing inside of unity, but when you launch the game outside of it, then it does something.
+    // this text is way too long. I should try and condense it.
     public void QuitGame()
     {
         Application.Quit();

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GoombaController : MonoBehaviour
 {
+    public float EnemyHealthNumberSlug = 7;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,9 @@ public class GoombaController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (EnemyHealthNumberSlug < 1)
+        {
+            Destroy(gameObject);
+        }
     }
 }
