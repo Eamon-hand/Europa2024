@@ -23,7 +23,7 @@ public class Startscript : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    // QuitGame quits the game and closes the application. this does nothing inside of unity, but when you launch the game outside of it, then it does something.
+    // QuitGame closes the application. this only happens when the game is launched outside of unity. nothing happens when this runs in unity.
     // this text is way too long. I should try and condense it.
     public void QuitGame()
     {

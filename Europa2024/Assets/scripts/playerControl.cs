@@ -15,6 +15,7 @@ public class playerControl : MonoBehaviour
     public float sprintSpeed = 1.5f;
     [SerializeField]private float maxSprint = 10f;
     public float HealthNumber = 10;
+    [SerializeField] private GameObject DeathScreen;
 
     // this code runs once, when the game starts
     void Start()
@@ -70,7 +71,9 @@ public class playerControl : MonoBehaviour
         //this is the code that kills the player
         if (HealthNumber < 1)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Time.timeScale = 0f;
+            DeathScreen.gameObject.SetActive(true);
+            this.gameObject.SetActive(false);
         }
 
         //this code checks for items and destroys them when touched
