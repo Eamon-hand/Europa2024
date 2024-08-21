@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Lethal
   - Item
+  - extra lethal
   layers:
   - Default
   - TransparentFX

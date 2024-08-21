@@ -68,6 +68,12 @@ public class playerControl : MonoBehaviour
 
         }
 
+        //this code instantly kills the player if they touch something they shouldn't, like an out-of-bounds wall
+        if (collision.gameObject.CompareTag("extra lethal"))
+        {
+            HealthNumber = 0;
+        }
+
         //this is the code that kills the player
         if (HealthNumber < 1)
         {
