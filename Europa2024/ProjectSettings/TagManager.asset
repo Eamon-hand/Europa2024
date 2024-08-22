@@ -7,6 +7,7 @@ TagManager:
   - Lethal
   - Item
   - extra lethal
+  - playerAttack
   layers:
   - Default
   - TransparentFX

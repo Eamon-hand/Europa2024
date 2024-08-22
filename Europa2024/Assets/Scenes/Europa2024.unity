@@ -9224,22 +9224,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: roomitem
       objectReference: {fileID: 0}
-    - target: {fileID: 4596001426937344487, guid: c10209d309754e143a7ee087b11340bb, type: 3}
-      propertyPath: m_Size.x
-      value: 1.1905278
-      objectReference: {fileID: 0}
-    - target: {fileID: 4596001426937344487, guid: c10209d309754e143a7ee087b11340bb, type: 3}
-      propertyPath: m_Size.y
-      value: 1.7409627
-      objectReference: {fileID: 0}
-    - target: {fileID: 4596001426937344487, guid: c10209d309754e143a7ee087b11340bb, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.074099004
-      objectReference: {fileID: 0}
-    - target: {fileID: 4596001426937344487, guid: c10209d309754e143a7ee087b11340bb, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.15877792
-      objectReference: {fileID: 0}
     - target: {fileID: 5014222045880709979, guid: c10209d309754e143a7ee087b11340bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -121.4

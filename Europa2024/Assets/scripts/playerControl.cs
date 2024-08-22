@@ -87,7 +87,6 @@ public class playerControl : MonoBehaviour
         if (collision.gameObject.CompareTag("Item"))
         {
             Destroy(collision.gameObject);
-            //moveSpeed = 7f;
         }
     }
 }
