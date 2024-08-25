@@ -46,6 +46,11 @@ public class playerControl : MonoBehaviour
             Debug.Log("Sprint Key Released: " + moveSpeed);
         }
 
+        //this will be the code that allows us to spawn attacks to actually damage enemies
+        if (Input.GetKey(KeyCode.Mouse1))
+        {
+
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -87,6 +92,7 @@ public class playerControl : MonoBehaviour
         if (collision.gameObject.CompareTag("Item"))
         {
             Destroy(collision.gameObject);
+            HealthNumber = 5;
         }
     }
 }
