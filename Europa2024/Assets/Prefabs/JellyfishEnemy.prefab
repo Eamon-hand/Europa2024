@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7277173517158473975}
   - component: {fileID: 4694665257913521338}
   - component: {fileID: 5821645432726745778}
-  - component: {fileID: 2098391198952425179}
-  m_Layer: 0
+  - component: {fileID: 4125496872048385847}
+  m_Layer: 7
   m_Name: JellyfishEnemy
   m_TagString: Lethal
   m_Icon: {fileID: 0}
@@ -98,9 +98,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e7209bcae0b8be449425792167ff7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyHealthNumberJellyfish: 10
---- !u!58 &2098391198952425179
-CircleCollider2D:
+  EnemyHealthNumber: 10
+--- !u!61 &4125496872048385847
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -131,6 +131,16 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.19150913, y: 0.08378601}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.5933332, y: 3.8466666}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Size: {x: 1.8059137, y: 2.7853851}
+  m_EdgeRadius: 0

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7260490638546777081}
   - component: {fileID: 8696732094522114729}
   - component: {fileID: 3963685727344723145}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 3924935020265740828}
   - component: {fileID: 3693580143843425538}
   - component: {fileID: 3488849957940994150}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumordoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 3178117784714504030}
   - component: {fileID: 189512930527260570}
   - component: {fileID: 7169894879014119134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mechroof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 4999700077076187993}
   - component: {fileID: 8026712308508842950}
   - component: {fileID: 7447514488966707465}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: upperfloormiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 3179275448519872586}
   - component: {fileID: 3125924798018391813}
   - component: {fileID: 7512726290479426051}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumorroof1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,7 +661,7 @@ GameObject:
   - component: {fileID: 7379040286802129414}
   - component: {fileID: 6866032830174377700}
   - component: {fileID: 7564887936686574948}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumorroof3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,7 +791,7 @@ GameObject:
   - component: {fileID: 8102173347989083261}
   - component: {fileID: 3056402475907343037}
   - component: {fileID: 5623996546757714831}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mechdoorramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,7 +968,7 @@ GameObject:
   - component: {fileID: 8634381043747209921}
   - component: {fileID: 4340495137847542714}
   - component: {fileID: 6077495963445307233}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: upperfloorleft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1098,7 +1098,7 @@ GameObject:
   - component: {fileID: 8332409005906617897}
   - component: {fileID: 75392216700785948}
   - component: {fileID: 3588553364323129211}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: upperfloorright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1228,7 +1228,7 @@ GameObject:
   - component: {fileID: 4448805990736315637}
   - component: {fileID: 1933101536918315298}
   - component: {fileID: 4685625998647530684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mechdoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1358,7 +1358,7 @@ GameObject:
   - component: {fileID: 5776943861454211289}
   - component: {fileID: 2912893782094819443}
   - component: {fileID: 2346229288620958483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumorroof4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1488,7 +1488,7 @@ GameObject:
   - component: {fileID: 7882938656353545964}
   - component: {fileID: 9111048280517923066}
   - component: {fileID: 4649377445903219797}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumorroof2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1618,7 +1618,7 @@ GameObject:
   - component: {fileID: 1931910696296358693}
   - component: {fileID: 6433420979669166992}
   - component: {fileID: 8152874576296271281}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumordoor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1849,7 +1849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608008582532037443, guid: 88531cde0c7ad3c4f9cf7cb70daab3af, type: 3}
       propertyPath: m_Name
-      value: SlugEnemy (1)
+      value: SlugEnemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

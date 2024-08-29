@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7615101493088113578}
   - component: {fileID: 6097485904225106654}
   - component: {fileID: 6615657386430438535}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ceiling3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 6525032257288444256}
   - component: {fileID: 9140862560485434546}
   - component: {fileID: 3769329307304311160}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: celingramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 7483036724268285090}
   - component: {fileID: 6888962143045357273}
   - component: {fileID: 8111379187845568889}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: doorright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 6826320539884888889}
   - component: {fileID: 5504996485125943674}
   - component: {fileID: 8087541406281502298}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: celingramp4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 7998489969429192317}
   - component: {fileID: 3806308820645068263}
   - component: {fileID: 5390888499920379478}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ramp1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -711,7 +711,7 @@ GameObject:
   - component: {fileID: 742415566340075652}
   - component: {fileID: 2336778356272636095}
   - component: {fileID: 2477237700675604936}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: miniramp2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,7 +841,7 @@ GameObject:
   - component: {fileID: 2365071354739073450}
   - component: {fileID: 8467835755624573177}
   - component: {fileID: 7306436651179237787}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -971,7 +971,7 @@ GameObject:
   - component: {fileID: 4463317317128414821}
   - component: {fileID: 1894929869063861112}
   - component: {fileID: 3244176723452301441}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: doorleft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1101,7 +1101,7 @@ GameObject:
   - component: {fileID: 4205990459323491550}
   - component: {fileID: 7971642720713563229}
   - component: {fileID: 7715792321270761428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: celingramp3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1231,7 +1231,7 @@ GameObject:
   - component: {fileID: 8728261196901963877}
   - component: {fileID: 6577219559823887893}
   - component: {fileID: 6937624697551741306}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: miniramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1361,7 +1361,7 @@ GameObject:
   - component: {fileID: 3137292417631672344}
   - component: {fileID: 7198256481137987914}
   - component: {fileID: 6105190958701267651}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: erectedfloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1491,7 +1491,7 @@ GameObject:
   - component: {fileID: 6125031516392926317}
   - component: {fileID: 8389844770714507376}
   - component: {fileID: 5264793653102174181}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1621,7 +1621,7 @@ GameObject:
   - component: {fileID: 8148175642864196626}
   - component: {fileID: 7003299552510175431}
   - component: {fileID: 6004919593630227834}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: celingramp5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1751,7 +1751,7 @@ GameObject:
   - component: {fileID: 7536057034525574522}
   - component: {fileID: 209313799046678353}
   - component: {fileID: 5587321735066631069}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1881,7 +1881,7 @@ GameObject:
   - component: {fileID: 6008384674316967973}
   - component: {fileID: 6636830996954841443}
   - component: {fileID: 1475566281668331605}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ceiling2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2011,7 +2011,7 @@ GameObject:
   - component: {fileID: 1218894662988240160}
   - component: {fileID: 3166666888628368505}
   - component: {fileID: 2996882298497671445}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: celingramp2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2141,7 +2141,7 @@ GameObject:
   - component: {fileID: 7082450872851551546}
   - component: {fileID: 3737606369312251279}
   - component: {fileID: 2062839482749057599}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ramp2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2271,7 +2271,7 @@ GameObject:
   - component: {fileID: 8871537904915181001}
   - component: {fileID: 6199777490842511188}
   - component: {fileID: 4607713073449979698}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2401,7 +2401,7 @@ GameObject:
   - component: {fileID: 2495455433718979933}
   - component: {fileID: 1307892682752987217}
   - component: {fileID: 596442755958440038}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: celingramp6
   m_TagString: Untagged
   m_Icon: {fileID: 0}

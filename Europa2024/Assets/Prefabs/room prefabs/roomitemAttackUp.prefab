@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8665344185648350635}
   - component: {fileID: 6656708874924988126}
   - component: {fileID: 346725362027307406}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: lesserfloor1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 6230447599426377701}
   - component: {fileID: 5062919133060524939}
   - component: {fileID: 7311077584317466791}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumorDoor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 6455004188599751691}
   - component: {fileID: 5770963850278170540}
   - component: {fileID: 4348379329272792506}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumorRoof2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 225797250909443284}
   - component: {fileID: 4131813847120790854}
   - component: {fileID: 7572638248644199071}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumorRoof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,7 +532,7 @@ GameObject:
   - component: {fileID: 4589086070644846415}
   - component: {fileID: 3962752128698452685}
   - component: {fileID: 124020276419714151}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -707,7 +707,7 @@ GameObject:
   - component: {fileID: 2486423447173689303}
   - component: {fileID: 1500389364175969596}
   - component: {fileID: 5382755193010142722}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ramp2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 1637118578571530147}
   - component: {fileID: 326115987204376881}
   - component: {fileID: 7187415528003436628}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -967,7 +967,7 @@ GameObject:
   - component: {fileID: 609703636672393856}
   - component: {fileID: 2653169630682594305}
   - component: {fileID: 7903759380065517376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumorDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1097,7 +1097,7 @@ GameObject:
   - component: {fileID: 7715532139787187453}
   - component: {fileID: 9202706111281606894}
   - component: {fileID: 5493823506141890105}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: doorright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1311,7 +1311,7 @@ GameObject:
   - component: {fileID: 6100612378971035776}
   - component: {fileID: 8036962970514337543}
   - component: {fileID: 7754203776546315755}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: doorleft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1442,7 +1442,7 @@ GameObject:
   - component: {fileID: 6043566046268083873}
   - component: {fileID: 8290415011882667904}
   - component: {fileID: 8384522015857383605}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1617,7 +1617,7 @@ GameObject:
   - component: {fileID: 3231308810066949115}
   - component: {fileID: 1728115172476003995}
   - component: {fileID: 8750678739799653773}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: lesserfloor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1760,7 +1760,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8317895531465606567}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 119.96713, y: -18.171158, z: 0.008307852}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1793,7 +1793,7 @@ GameObject:
   - component: {fileID: 4723880495647110103}
   - component: {fileID: 6641664073119751967}
   - component: {fileID: 2792031623351183740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ceilingramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}

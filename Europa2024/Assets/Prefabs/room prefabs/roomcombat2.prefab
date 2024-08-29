@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5404340342674285301}
   - component: {fileID: 995428148087423270}
   - component: {fileID: 3449543841459087252}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 6095742904551794267}
   - component: {fileID: 6351986789606394949}
   - component: {fileID: 2386582454300725532}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tunnel2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 3497827874535691533}
   - component: {fileID: 1840191124839010611}
   - component: {fileID: 4753779736246893061}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floorslantedgentle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 3759361219187927024}
   - component: {fileID: 6959986202910207370}
   - component: {fileID: 8940303068511775956}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floorslanted
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 4809393756805091942}
   - component: {fileID: 237936060585044404}
   - component: {fileID: 998901600063512634}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,7 +661,7 @@ GameObject:
   - component: {fileID: 1837735331505652061}
   - component: {fileID: 726036223205512688}
   - component: {fileID: 5341119429732133394}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ceilingramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,7 +791,7 @@ GameObject:
   - component: {fileID: 7375077085770645588}
   - component: {fileID: 5434619910197911183}
   - component: {fileID: 1376814764494654}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -921,7 +921,7 @@ GameObject:
   - component: {fileID: 4217940123791300801}
   - component: {fileID: 7022112684570289444}
   - component: {fileID: 5990279148247611441}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumor3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1104,7 +1104,7 @@ GameObject:
   - component: {fileID: 2172489353140381999}
   - component: {fileID: 6087880232385917435}
   - component: {fileID: 9157851115589257566}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1234,7 +1234,7 @@ GameObject:
   - component: {fileID: 72420434920386915}
   - component: {fileID: 8681410208336854695}
   - component: {fileID: 3177829818545294808}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,7 +1364,7 @@ GameObject:
   - component: {fileID: 2417756923487780048}
   - component: {fileID: 1168358086713394316}
   - component: {fileID: 362271944505874420}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tunnel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1494,7 +1494,7 @@ GameObject:
   - component: {fileID: 5811867237923727001}
   - component: {fileID: 1218707463387618875}
   - component: {fileID: 2154708604590203812}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floorslanted2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1624,7 +1624,7 @@ GameObject:
   - component: {fileID: 860396492209038689}
   - component: {fileID: 709147635237640713}
   - component: {fileID: 832207398861909281}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ceiling2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1754,7 +1754,7 @@ GameObject:
   - component: {fileID: 1637095920484538204}
   - component: {fileID: 7936445053591407438}
   - component: {fileID: 1334412472212141093}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumorceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1884,7 +1884,7 @@ GameObject:
   - component: {fileID: 6363153767805833739}
   - component: {fileID: 8229141895547006340}
   - component: {fileID: 2565883831284737945}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumor4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2014,8 +2014,8 @@ GameObject:
   - component: {fileID: 3174725414997708209}
   - component: {fileID: 6609837630476559421}
   - component: {fileID: 5395463319973459559}
-  m_Layer: 0
-  m_Name: Square
+  m_Layer: 3
+  m_Name: sphincter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2144,7 +2144,7 @@ GameObject:
   - component: {fileID: 7071631534187957156}
   - component: {fileID: 5598114185669974723}
   - component: {fileID: 2640085194849908778}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumor5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2274,7 +2274,7 @@ GameObject:
   - component: {fileID: 1556247663930256904}
   - component: {fileID: 7704995050747379647}
   - component: {fileID: 2971527824886950191}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floorslantedsteep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2404,7 +2404,7 @@ GameObject:
   - component: {fileID: 2695325644952560957}
   - component: {fileID: 739731803111436985}
   - component: {fileID: 2390347642222771493}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tumor1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

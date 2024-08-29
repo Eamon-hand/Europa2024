@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8756581170795502036}
   - component: {fileID: 5179455486450636372}
   - component: {fileID: 8865009658641865885}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rampfloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 4289453298970625536}
   - component: {fileID: 6157714812257243079}
   - component: {fileID: 3340621989533458509}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 5195861434271391832}
   - component: {fileID: 2581537092869182895}
   - component: {fileID: 7043044309505290292}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rampfloor 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 8128402021858176350}
   - component: {fileID: 2344192961925541225}
   - component: {fileID: 3732431963421265570}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 3574456234233324401}
   - component: {fileID: 7202244289664269895}
   - component: {fileID: 6799475201409467898}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: doorright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,7 +674,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5116416382281608753}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -15.664566, y: -1.8362548, z: -0.011323795}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 5511624804032962466}
   - component: {fileID: 3035041005584528683}
   - component: {fileID: 9009687447947535923}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ceiling 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -833,7 +833,7 @@ GameObject:
   - component: {fileID: 7251732583229908007}
   - component: {fileID: 4127641425592591503}
   - component: {fileID: 1899830695662549187}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -963,7 +963,7 @@ GameObject:
   - component: {fileID: 3156151534644331972}
   - component: {fileID: 6377405076743818827}
   - component: {fileID: 1165956212466647195}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: doorleft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,7 +979,7 @@ Transform:
   m_GameObject: {fileID: 7295634380371011317}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.278303, y: 3.597455, z: 0.019631647}
+  m_LocalPosition: {x: -14.26, y: 3.597455, z: 0.019631647}
   m_LocalScale: {x: 1, y: 4.5825, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1093,7 +1093,7 @@ GameObject:
   - component: {fileID: 2231908650178120909}
   - component: {fileID: 8775166581650975876}
   - component: {fileID: 3759059260986697047}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1223,7 +1223,7 @@ GameObject:
   - component: {fileID: 9075243790100224855}
   - component: {fileID: 4771520901379548136}
   - component: {fileID: 6729759864333284584}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rampceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1352,7 +1352,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4418288569561415397, guid: 880852d2fe7fa9e42bca3f06c5f94f7c, type: 3}
       propertyPath: m_Name
-      value: EnemyGeneric
+      value: JellyfishEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 7277173517158473975, guid: 880852d2fe7fa9e42bca3f06c5f94f7c, type: 3}
       propertyPath: m_LocalPosition.x
