@@ -12,8 +12,11 @@ public class BulletLogic : MonoBehaviour
     [SerializeField] private float BulletSpeed = 15f;
 
     [Header("physics bullet stats")]
+    [SerializeField] private float PhysBulletSpeed = 17f;
+    [SerializeField] private float PhysBulletGravity = 3f;
 
     [Header("super bullet stats")]
+    [SerializeField] private float SuperBulletSpeed = 30f;
 
     private Rigidbody2D rb;
 
@@ -32,6 +35,9 @@ public class BulletLogic : MonoBehaviour
 
         SetDestructionTime();
 
+        //changes physics of bullet if bullet type is physics
+        SetRBStats();
+
         //sets velocity based on bullet type
         InitialiseBulletType();
     }
@@ -45,12 +51,12 @@ public class BulletLogic : MonoBehaviour
 
         else if (bulletType == BulletType.Physics)
         {
-
+            SetPhysBulletVelocity();
         }
 
         else if (bulletType == BulletType.PoweredUp)
         {
-
+            SetSuperBulletSpeed();
         }
     }
 
@@ -58,6 +64,7 @@ public class BulletLogic : MonoBehaviour
     {
         if ((CheckForWalls.value & (1 << collision.gameObject.layer)) > 0)
         {
+            //damages an enemy when touching them
 
 
             //destroys the bullet when it hits a wall or enemy
@@ -65,22 +72,38 @@ public class BulletLogic : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
     //sets the velocity of the bullet upon being created
     private void SetVelocity()
     {
         rb.velocity = transform.right * BulletSpeed;
     }
 
-    
+    private void SetPhysBulletVelocity()
+    {
+        rb.velocity = transform.right * PhysBulletSpeed;
+    }
+
+    private void SetSuperBulletSpeed()
+    {
+        rb.velocity = transform.right * SuperBulletSpeed;
+    }
+
     //sets a destruction timer once the bullet is created in order to prevent them from clogging up the scene
     private void SetDestructionTime()
     {
         Destroy(gameObject, BulletTimer);
+    }
+
+    private void SetRBStats()
+    {
+        if (bulletType == BulletType.Normal || bulletType == BulletType.PoweredUp)
+        {
+            rb.gravityScale = 0f;
+        }
+
+        else if (bulletType == BulletType.Physics)
+        {
+            rb.gravityScale = PhysBulletGravity;
+        }
     }
 }
