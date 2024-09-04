@@ -166,7 +166,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 136
   BulletSpeed: 15
+  BulletDamage: 1
   PhysBulletSpeed: 17
   PhysBulletGravity: 3
+  PhysBulletDamage: 5
   SuperBulletSpeed: 30
-  bulletType: 2
+  SuperBulletDamage: 3
+  bulletType: 0

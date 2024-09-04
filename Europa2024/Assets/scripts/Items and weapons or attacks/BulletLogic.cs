@@ -10,15 +10,19 @@ public class BulletLogic : MonoBehaviour
 
     [Header("regular bullet stats")]
     [SerializeField] private float BulletSpeed = 15f;
+    [SerializeField] private float BulletDamage = 1f;
 
     [Header("physics bullet stats")]
     [SerializeField] private float PhysBulletSpeed = 17f;
     [SerializeField] private float PhysBulletGravity = 3f;
+    [SerializeField] private float PhysBulletDamage = 5f;
 
     [Header("super bullet stats")]
     [SerializeField] private float SuperBulletSpeed = 30f;
+    [SerializeField] private float SuperBulletDamage = 3f;
 
     private Rigidbody2D rb;
+    private float damge;
 
     public enum BulletType
     {
@@ -42,21 +46,33 @@ public class BulletLogic : MonoBehaviour
         InitialiseBulletType();
     }
 
+    private void FixedUpdate()
+    {
+        if (bulletType == BulletType.Physics)
+        {
+            //this rotates the physics bullet as it falls
+            transform.right = rb.velocity;
+        }
+    }
+
     private void InitialiseBulletType()
     {
         if (bulletType == BulletType.Normal)
         {
             SetVelocity();
+            damge = BulletDamage;
         }
 
         else if (bulletType == BulletType.Physics)
         {
             SetPhysBulletVelocity();
+            damge = PhysBulletDamage;
         }
 
         else if (bulletType == BulletType.PoweredUp)
         {
             SetSuperBulletSpeed();
+            damge = SuperBulletDamage;
         }
     }
 
@@ -64,8 +80,13 @@ public class BulletLogic : MonoBehaviour
     {
         if ((CheckForWalls.value & (1 << collision.gameObject.layer)) > 0)
         {
-            //damages an enemy when touching them
-
+            //calls a function to hurt an enemy
+            DamageScript damage = collision.gameObject.GetComponent<DamageScript>();
+            if (damage != null)
+            {
+                //actually damages the enemy
+                damage.Damage(damge);
+            }
 
             //destroys the bullet when it hits a wall or enemy
             Destroy(gameObject);

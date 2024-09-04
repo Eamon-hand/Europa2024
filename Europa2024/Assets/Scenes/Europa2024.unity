@@ -223,7 +223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 78247069}
   m_Layer: 0
-  m_Name: PlayerAttacks
+  m_Name: playerattacks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -237,15 +237,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78247068}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.7042003, y: 5.332808, z: -0.101905726}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.7, y: 48.28, z: -0.13747315}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2046626080}
   - {fileID: 1985893315}
   - {fileID: 423703688}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1785601774}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &85049005
 GameObject:
@@ -8124,6 +8124,7 @@ Transform:
   - {fileID: 2092787925}
   - {fileID: 1253366637}
   - {fileID: 1846385874}
+  - {fileID: 78247069}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1794482305
@@ -10444,4 +10445,3 @@ SceneRoots:
   - {fileID: 1785601774}
   - {fileID: 480081589}
   - {fileID: 1368552610}
-  - {fileID: 78247069}
