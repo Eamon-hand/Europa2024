@@ -2,31 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoombaController : MonoBehaviour
+public class GoombaController : MonoBehaviour,DamageScript
 {
-    public float EnemyHealthNumber = 7;
+    [SerializeField] public float EnemyHealthNumber = 5;
+
+    public float currentEnemyHealth;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentEnemyHealth = EnemyHealthNumber;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (EnemyHealthNumber < 1)
-        {
-            Destroy(gameObject);
-        }
+        
     }
 
-    //this is the code that actually allows us to damage enemies
-    public void OnCollisionEnter2D(Collision2D collision)
+    //damages the enemy
+    public void Damage(float damage)
     {
-        if (collision.gameObject.CompareTag("playerAttack"))
+        currentEnemyHealth -= damage;
+        
+        //kills the enemy at 0 health
+        if (currentEnemyHealth <= 0)
         {
-            EnemyHealthNumber = EnemyHealthNumber - 1;
+            Destroy(gameObject);
         }
     }
 }

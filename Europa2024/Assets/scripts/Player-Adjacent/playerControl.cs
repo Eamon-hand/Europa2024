@@ -45,12 +45,6 @@ public class playerControl : MonoBehaviour
             moveSpeed = 6f;
             Debug.Log("Sprint Key Released: " + moveSpeed);
         }
-
-        //this will be the code that allows us to spawn attacks to actually damage enemies
-        if (Input.GetKey(KeyCode.Mouse1))
-        {
-
-        }
     }
 
     public void Move(InputAction.CallbackContext context)

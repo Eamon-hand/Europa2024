@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class JellyfishController : MonoBehaviour, DamageScript
 {  
-    [SerializeField] private float EnemyHealthNumber = 5f;
+    [SerializeField] public float EnemyHealthNumber = 7f;
 
-    private float currentEnemyHealth;
+    public float currentEnemyHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +26,7 @@ public class JellyfishController : MonoBehaviour, DamageScript
         currentEnemyHealth -= damage;    
         
         //this code kills the enemy when its help drops below 1
-        if (EnemyHealthNumber <= 0)
+        if (currentEnemyHealth <= 0)
         {
             Destroy(gameObject);
         }
