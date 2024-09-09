@@ -56,7 +56,7 @@ public class TargetingSystem : MonoBehaviour
     //this code allows us to actually "fire" bullets (create a bullet object)
     private void BulletShooting()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        if (Mouse.current.leftButton.wasPressedThisFrame&&attackSystem.gameObject.activeInHierarchy)
         {
             BulletInst = Instantiate(bullet, bulletLaunch.position, attackSystem.transform.rotation);
         }

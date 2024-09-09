@@ -16,6 +16,7 @@ public class playerControl : MonoBehaviour
     [SerializeField]private float maxSprint = 10f;
     public float HealthNumber = 10;
     [SerializeField] private GameObject DeathScreen;
+    [SerializeField] private GameObject ItemUpgrade;
 
     // this code runs once, when the game starts
     void Start()
@@ -61,9 +62,9 @@ public class playerControl : MonoBehaviour
         //this function allows for us to damage the player when they hit a harmful object
         if (collision.gameObject.CompareTag("Lethal"))
         {
-            
+
             HealthNumber = HealthNumber - 1;
-            
+
 
         }
 
@@ -87,6 +88,12 @@ public class playerControl : MonoBehaviour
         {
             Destroy(collision.gameObject);
             HealthNumber = 5;
+        }
+
+        if (collision.gameObject.CompareTag("ItemUpgrade"))
+        {
+            ItemUpgrade.SetActive(true);
+            Destroy(collision.gameObject);
         }
     }
 }

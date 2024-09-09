@@ -8,6 +8,7 @@ TagManager:
   - Item
   - extra lethal
   - playerAttack
+  - ItemUpgrade
   layers:
   - Default
   - TransparentFX
