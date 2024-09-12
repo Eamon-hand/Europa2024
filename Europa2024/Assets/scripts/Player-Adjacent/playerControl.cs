@@ -17,6 +17,8 @@ public class playerControl : MonoBehaviour
     public float HealthNumber = 10;
     [SerializeField] private GameObject DeathScreen;
     [SerializeField] private GameObject ItemUpgrade;
+    [SerializeField] private Sprite DefaultSprite;
+    [SerializeField] private Sprite UpradedSprite;
 
     // this code runs once, when the game starts
     void Start()
@@ -62,10 +64,7 @@ public class playerControl : MonoBehaviour
         //this function allows for us to damage the player when they hit a harmful object
         if (collision.gameObject.CompareTag("Lethal"))
         {
-
             HealthNumber = HealthNumber - 1;
-
-
         }
 
         //this code instantly kills the player if they touch something they shouldn't, like an out-of-bounds wall
@@ -90,10 +89,13 @@ public class playerControl : MonoBehaviour
             HealthNumber = 5;
         }
 
+        //activates the targeting system game object and allows the player to attack
         if (collision.gameObject.CompareTag("ItemUpgrade"))
         {
             ItemUpgrade.SetActive(true);
             Destroy(collision.gameObject);
+            //DefaultSprite = UpradedSprite;
+            HealthNumber = 5;
         }
     }
 }
