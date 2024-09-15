@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &103384335957320867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3146048715544922189}
+  m_Layer: 0
+  m_Name: pointA
+  m_TagString: Untagged
+  m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3146048715544922189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103384335957320867}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.692867, y: -0.15528274, z: 0.106593184}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 395981732169207009}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &679343314129252588
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,6 +161,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1398778403241868601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1686462923454846166}
+  m_Layer: 0
+  m_Name: pointB
+  m_TagString: Untagged
+  m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1686462923454846166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398778403241868601}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.692867, y: -0.07528281, z: 0.106593184}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 395981732169207009}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1470105381953120103
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,6 +1015,8 @@ Transform:
   - {fileID: 7379040286802129414}
   - {fileID: 5776943861454211289}
   - {fileID: 7261193038408462958}
+  - {fileID: 3146048715544922189}
+  - {fileID: 1686462923454846166}
   - {fileID: 7929896792391543283}
   - {fileID: 6737472692035949312}
   - {fileID: 5763976440126833581}
@@ -1872,6 +1936,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 395981732169207009}
     m_Modifications:
+    - target: {fileID: -7776184027554485302, guid: 88531cde0c7ad3c4f9cf7cb70daab3af, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 103384335957320867}
+    - target: {fileID: -7776184027554485302, guid: 88531cde0c7ad3c4f9cf7cb70daab3af, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 1398778403241868601}
     - target: {fileID: 5043539450473605542, guid: 88531cde0c7ad3c4f9cf7cb70daab3af, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.245739

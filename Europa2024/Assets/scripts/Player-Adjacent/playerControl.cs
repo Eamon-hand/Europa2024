@@ -86,7 +86,7 @@ public class playerControl : MonoBehaviour
         if (collision.gameObject.CompareTag("Item"))
         {
             Destroy(collision.gameObject);
-            HealthNumber = 5;
+            HealthNumber++;
         }
 
         //activates the targeting system game object and allows the player to attack
