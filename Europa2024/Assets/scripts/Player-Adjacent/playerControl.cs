@@ -41,12 +41,10 @@ public class playerControl : MonoBehaviour
             if (sprint >= maxSprint)
                 sprint = maxSprint;
             moveSpeed = sprint;
-            Debug.Log("Sprint Key Pressed: " + sprint);
         }
         if (!Input.GetKey(KeyCode.LeftShift))
         {
             moveSpeed = 6f;
-            Debug.Log("Sprint Key Released: " + moveSpeed);
         }
     }
 
