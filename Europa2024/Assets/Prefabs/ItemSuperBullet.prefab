@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 708925650276659875}
   - component: {fileID: 6122380049225636213}
   m_Layer: 0
-  m_Name: ItemAttack
+  m_Name: ItemSuperBullet
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
