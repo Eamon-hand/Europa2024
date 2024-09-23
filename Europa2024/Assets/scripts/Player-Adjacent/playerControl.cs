@@ -92,7 +92,7 @@ public class playerControl : MonoBehaviour
         {
             ItemUpgrade.SetActive(true);
             Destroy(collision.gameObject);
-            //DefaultSprite = UpradedSprite;
+            DefaultSprite = UpradedSprite;
             HealthNumber = 5;
         }
     }

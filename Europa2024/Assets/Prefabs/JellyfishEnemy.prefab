@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7277173517158473975}
   - component: {fileID: 4694665257913521338}
-  - component: {fileID: 5821645432726745778}
   - component: {fileID: 5693616645096014325}
+  - component: {fileID: -4683637667567885231}
+  - component: {fileID: 5821645432726745778}
   m_Layer: 7
   m_Name: JellyfishEnemy
   m_TagString: Lethal
@@ -86,20 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5821645432726745778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4418288569561415397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e7209bcae0b8be449425792167ff7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EnemyHealthNumber: 7
-  currentEnemyHealth: 0
 --- !u!70 &5693616645096014325
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -135,3 +122,47 @@ CapsuleCollider2D:
   m_Offset: {x: -0.18048263, y: 0.07820892}
   m_Size: {x: 1.788506, y: 2.8479958}
   m_Direction: 0
+--- !u!50 &-4683637667567885231
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418288569561415397}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!114 &5821645432726745778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418288569561415397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e7209bcae0b8be449425792167ff7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
+  speed: 0
+  EnemyHealthNumber: 7
+  currentEnemyHealth: 0
