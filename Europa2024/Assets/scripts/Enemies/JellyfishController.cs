@@ -18,8 +18,8 @@ public class JellyfishController : MonoBehaviour, DamageScript
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        currentPoint = pointA.transform;
-        
+        //currentPoint = pointA.transform;
+
         currentEnemyHealth = EnemyHealthNumber;
     }
 
@@ -27,39 +27,39 @@ public class JellyfishController : MonoBehaviour, DamageScript
     void Update()
     {
         //moves the enemy
-        Vector2 point = currentPoint.position - transform.position;
-        if (currentPoint == pointA.transform)
-        {
-            rb.velocity = new Vector2(speed, 0);
-        }
+        //Vector2 point = currentPoint.position - transform.position;
+        //if (currentPoint == pointA.transform)
+        //{
+            //rb.velocity = new Vector2(speed, 0);
+        //}
 
-        else
-        {
-            rb.velocity = new Vector2(-speed, 0);
-        }
+        //else
+        //{
+            //rb.velocity = new Vector2(-speed, 0);
+        //}
 
         //makes the enemy change direction when it reaches point A of its path
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
-        {
-            currentPoint = pointB.transform;
-            speed = 2f;
-        }
+        //if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
+        //{
+            //currentPoint = pointB.transform;
+            //speed = 2f;
+        //}
 
         //and vice versa for point B
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
-        {
-            currentPoint = pointA.transform;
-            speed = 5f;
-        }
+        //if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
+        //{
+            //currentPoint = pointA.transform;
+            //speed = 5f;
+        //}
     }
 
     //makes the enemy patrol path visible
     //yes I copied this from the slug controller. sue me.
     private void OnDrawGizmos()
     {
-        Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
         Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
-        Gizmos.DrawLine(pointB.transform.position, pointA.transform.position);
+        Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
+        Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
     }
 
     //this code is what damages the enemy
