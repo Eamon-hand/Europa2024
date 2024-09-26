@@ -9734,6 +9734,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4160741099193983052, guid: c05465f696bdf384eb426c8c6f766188, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 4957364019036666634, guid: c05465f696bdf384eb426c8c6f766188, type: 3}
       propertyPath: speed
       value: 2
