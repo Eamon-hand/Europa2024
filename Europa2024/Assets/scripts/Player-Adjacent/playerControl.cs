@@ -15,11 +15,18 @@ public class playerControl : MonoBehaviour
     public float sprintSpeed = 1.5f;
     [SerializeField]private float maxSprint = 10f;
     public float HealthNumber = 10;
+    
+    [Header("UI elements && UI element detection")]
     [SerializeField] private GameObject DeathScreen;
+    [SerializeField] private GameObject EndScreen;
+    [SerializeField] private GameObject JellyFishEnemy;
+    [SerializeField] private GameObject SlugEnemy;
+
+    [Header("Items and related")]
     [SerializeField] private GameObject ItemUpgrade;
     [SerializeField] private Sprite DefaultSprite;
     [SerializeField] private Sprite UpradedSprite;
-
+    
     // this code runs once, when the game starts
     void Start()
     {
@@ -45,6 +52,11 @@ public class playerControl : MonoBehaviour
         if (!Input.GetKey(KeyCode.LeftShift))
         {
             moveSpeed = 6f;
+        }
+
+        if (JellyFishEnemy == null && SlugEnemy == null)
+        {
+            EndScreen.gameObject.SetActive(true);
         }
     }
 
