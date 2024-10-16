@@ -54,6 +54,8 @@ public class playerControl : MonoBehaviour
             moveSpeed = 6f;
         }
 
+        //this code allows us to set a "end screen" when all enemies are dead.
+        //or it should.
         if (JellyFishEnemy == null && SlugEnemy == null)
         {
             EndScreen.gameObject.SetActive(true);
